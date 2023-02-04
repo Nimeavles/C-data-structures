@@ -38,3 +38,21 @@ A nice way for understanding pointers and memory allocations in C
   #Windows
   Stack.exe
   ```
+
+## **Queue**
+
+<hr>
+
+- <a href="./Queue/Queue.c">Code</a>
+- <a href="https://www.geeksforgeeks.org/queue-data-structure/">Explanation</a>
+
+- Run:
+
+  ```sh
+  gcc Queue/Queue.c -o Queue
+  #Linux or Mac
+  ./Queue
+
+  #Windows
+  Queue.exe
+  ```
