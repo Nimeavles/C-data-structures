@@ -20,3 +20,21 @@ A nice way for understanding pointers and memory allocations in C
   #Windows
   LK.exe
   ```
+
+## **Stack**
+
+<hr>
+
+- <a href="./Stack/Stack.c">Code</a>
+- <a href="https://www.geeksforgeeks.org/stack-data-structure/">Explanation</a>
+
+- Run:
+
+  ```sh
+  gcc Stack/Stack.c -o Stack
+  #Linux or Mac
+  ./Stack
+
+  #Windows
+  Stack.exe
+  ```
