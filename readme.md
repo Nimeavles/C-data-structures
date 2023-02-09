@@ -56,3 +56,21 @@ A nice way for understanding pointers and memory allocations in C
   #Windows
   Queue.exe
   ```
+
+## **Hash Map with Linked Lists**
+
+<hr>
+
+- <a href="./Hash-map/hash_map_ll.c">Code</a>
+- <a href="https://www.geeksforgeeks.org/introduction-to-hashing-data-structure-and-algorithm-tutorials/">Explanation</a>
+
+- Run:
+
+  ```sh
+  gcc Hash-map/hash_map_ll.c -o hash_map_ll
+  #Linux or Mac
+  ./hash_map_ll
+
+  #Windows
+  hash_map_ll.exe
+  ```
