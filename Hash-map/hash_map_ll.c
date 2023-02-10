@@ -56,12 +56,13 @@ void append(struct Map *map, struct Node *new_node) {
 }
 
 void *get(int index, struct Map *map) {
-  if (map->list[index] == NULL) {
+  int hashed_pos = hash(index);
+  if (map->list[hashed_pos] == NULL) {
     printf("empty field");
     return NULL;
   }
 
-  return map->list[index];
+  return map->list[hashed_pos];
 }
 
 int main() {
